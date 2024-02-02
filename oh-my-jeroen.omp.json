@@ -155,7 +155,7 @@
     "transient_prompt": {
       "background": "transparent",
       "foreground": "#ffffff",
-      "template": " {{ if .Shell }}{{ .Shell }}{{ end }}{{ if .WSL }} {{ .WSL }}{{ end }}{{ if .Icon }} {{ .Icon }}{{ end }} {{ .UserName }}@{{ .Hostname }} {{ .Path }} {{ .PromptSymbol }} "
+      "template": " {{ .Shell }}> "
     },
     "final_space": true,
     "version": 2
